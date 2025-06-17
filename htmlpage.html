@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh; 
+    }
+
+    .left, .right {
+      flex: 1 0 100px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      color: white;
+    }
+
+    .left {
+      background-color: blue;
+    }
+
+    .right {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">Left Half</div>
+    <div class="right">Right Half</div>
+  </div>
+</body>
+</html>
